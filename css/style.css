@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+/* letra o estilo ======== font-family: 'Noto Sans SC', sans-serif; ====== */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container .box {
+    position: relative;
+    background: #fff;
+    padding: 20px 40px 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.container .box:nth-child(1) {
+    background: linear-gradient(45deg, #b7033f, #64eaff);
+}
+
+.container .box:nth-child(2) {
+    background: linear-gradient(45deg, #b75a03, #83ff64);
+}
+
+.container .box:nth-child(3) {
+    background: linear-gradient(45deg, #86e2bc, #ff6464);
+}
+
+.container .box:nth-child(4) {
+    background: linear-gradient(45deg, #036eb7, #ff64b1);
+}
+
+.container .box h2 {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100px;
+    color: #fff;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.container .box h3 {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.container .box p {
+    margin: 4px;
+    padding: 0px;
+    color: #fff;
+    font-size: 18px;
+}
